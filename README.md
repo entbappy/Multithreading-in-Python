@@ -1,5 +1,4 @@
-# Calculator Project
+# Multithreading in Python
 
-### Having simple operations like Addition, Substraction, multiplication and division.
 
 Used Flask for creating the web application.
