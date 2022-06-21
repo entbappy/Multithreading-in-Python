@@ -1,0 +1,21 @@
+
+
+
+{% block head %}
+
+<title>Multithreading</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Multithreading</h1>
+
+    <div class="form">
+        <form action="/train" method="POST">
+            <label for="operation">Click here to train</label>
+            <input type="submit" value="Train">
+        </form>
+    </div>
+</div>
+{% endblock %}
